@@ -1,9 +1,7 @@
 'use client'
 
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
-import {Gift, CheckCircle, Disc, Flame, Wallet} from "lucide-react"
 import {useState} from "react"
 import { useRouter } from 'next/navigation';
 

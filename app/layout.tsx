@@ -1,9 +1,7 @@
 'use client'
 
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import {Gift, CheckCircle, Disc, Flame, Wallet} from "lucide-react"
 import {useState} from "react"
 import { useRouter } from 'next/navigation';
 
@@ -25,7 +23,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const [activeTab, setActiveTab] = useState("Tap")
-  const router = useRouter();
 
   return (
     <html lang="en">
