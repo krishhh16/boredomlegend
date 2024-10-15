@@ -2,18 +2,18 @@
 
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "../globals.css";
 import {Gift, CheckCircle, Disc, Flame, Wallet} from "lucide-react"
 import {useState} from "react"
 import { useRouter } from 'next/navigation';
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "../fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "../fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
@@ -39,7 +39,7 @@ export default function RootLayout({
             <NavItem icon={<img src={"/tick.png"} className="w-8" alt="wallet--v1" />} label="Tasks" activeTab={activeTab} setActiveTab={setActiveTab} path="/2" />
             <NavItem icon={<img src={"/coinn.png"} className="w-10 h-8" alt="wallet--v1" />} label="Tap" activeTab={activeTab} setActiveTab={setActiveTab} path="/3" />
             <NavItem icon={<img src={"/firee.png"} className="w-8 h-8" alt="wallet--v1" />} label="Boost" activeTab={activeTab} setActiveTab={setActiveTab} path="/4" />
-            <NavItem icon={<img src={"/bitcoin_wallet.png"} className="w-8 h-18" alt="wallet--v1" />} label="Wallet" activeTab={activeTab} setActiveTab={setActiveTab} path="/5" />
+            <NavItem icon={<img src={"/bitcoin_wallet.png"} className="w-8 h-10" alt="wallet--v1" />} label="Wallet" activeTab={activeTab} setActiveTab={setActiveTab} path="/5" />
           </div>
         </nav>
       </body>
