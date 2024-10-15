@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <nav className="fixed bottom-4 left-0 right-0 bg-[#1a1b26] p-2">
+        <nav className="fixed bottom-4 left-0 right-0 bg-[#1a1b26] p-3">
           <div className="flex justify-between items-center">
             <NavItem icon={<img src={"/referr.png"} className="w-[10vw] h-[12vh] flex justify-center items-center mt-2" alt="wallet--v1" />} label="Ref" activeTab={activeTab} setActiveTab={setActiveTab}  />
             <NavItem icon={<img src={"/tick.png"} className="w-[11vw] h-[5vh]flex justify-center items-center mt-2" alt="wallet--v1" />} label="Tasks" activeTab={activeTab} setActiveTab={setActiveTab} />

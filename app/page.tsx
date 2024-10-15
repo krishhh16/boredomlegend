@@ -8,7 +8,7 @@ function Page() {
   return (
     <main className="flex-1 flex flex-col bg-[#1a1b26] items-center justify-center p-2 space-y-8 min-h-screen">
       {/* Coin Count and Status */}
-      <div className="flex flex-col items-center bg-[#1a1b26] space-x-4 -mt-4">
+      <div className="flex flex-col items-center bg-[#1a1b26] space-x-4 -mt-10">
         <div className="flex items-center">
           <Image src="/coinnn.png" width={40} height={40} alt="Coin" className="mr-2" />
           <span className="text-3xl font-bold">4</span>
@@ -38,11 +38,11 @@ function Page() {
           </div>
         </div>
       </div>
-        <img src="/spotlightt.jpeg" alt="Large Coin" className="w-[100vw] absolute h-full object-contain" style={{ zIndex: 1, opacity: 0.4 }} />
+        <img src="/spotlightt.jpeg" alt="Large Coin" className="w-[100vw] absolute h-[60vh] object-contain" style={{ zIndex: 1, opacity: 0.4 }} />
 
       {/* Progress Bar */}
       <div className="w-full max-w-xs space-y-2">
-        <div className="flex justify-center items-center">
+        <div style={{zIndex: 1000}} className="flex justify-center items-center">
           <Zap size={16} className="text-yellow-500" />
           <span className="text-sm">497/500</span>
         </div>
