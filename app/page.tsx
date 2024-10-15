@@ -19,7 +19,7 @@ function Page() {
           <ChevronRight size={16} />
         </div>
       </div>
-
+<div/>
       {/* Large Coin Image */}
       <div className="relative w-60 h-72">
         <div className="absolute inset-0 flex items-center justify-center">

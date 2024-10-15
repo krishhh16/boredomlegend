@@ -3,7 +3,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import {useState} from "react"
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -45,7 +45,7 @@ export default function RootLayout({
 }
 
 function NavItem({ icon, label, activeTab, setActiveTab, path }: { icon: React.ReactNode, label: string, activeTab: string, setActiveTab: React.Dispatch<React.SetStateAction<string>>, path: string }) {
-  const router = useRouter();
+  // const router = useRouter();
   const isActive = activeTab === label
 
   const handleClick = () => {
