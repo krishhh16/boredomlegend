@@ -32,11 +32,11 @@ export default function RootLayout({
         {children}
         <nav className="fixed bottom-4 left-0 right-0 bg-[#1a1b26] p-2">
           <div className="flex justify-between items-center">
-            <NavItem icon={<img src={"/referr.png"} className="w-[10vw] h-[12vh] flex justify-center items-center mt-2" alt="wallet--v1" />} label="Ref" activeTab={activeTab} setActiveTab={setActiveTab} path="/1" />
-            <NavItem icon={<img src={"/tick.png"} className="w-[11vw] h-[5vh]flex justify-center items-center mt-2" alt="wallet--v1" />} label="Tasks" activeTab={activeTab} setActiveTab={setActiveTab} path="/2" />
-            <NavItem icon={<img src={"/coinn.png"} className="w-12 h-10 flex justify-center items-center mt-2 -mb-1" alt="wallet--v1" />} label="Tap" activeTab={activeTab} setActiveTab={setActiveTab} path="/3" />
-            <NavItem icon={<img src={"/firee.png"} className="w-8 h-8 flex justify-center items-center mt-2" alt="wallet--v1" />} label="Boost" activeTab={activeTab} setActiveTab={setActiveTab} path="/4" />
-            <NavItem icon={<img src={"/bitcoin_wallet.png"} className="w-12 h-8 flex justify-center items-center mt-2" alt="wallet--v1" />} label="Wallet" activeTab={activeTab} setActiveTab={setActiveTab} path="/5" />
+            <NavItem icon={<img src={"/referr.png"} className="w-[10vw] h-[12vh] flex justify-center items-center mt-2" alt="wallet--v1" />} label="Ref" activeTab={activeTab} setActiveTab={setActiveTab}  />
+            <NavItem icon={<img src={"/tick.png"} className="w-[11vw] h-[5vh]flex justify-center items-center mt-2" alt="wallet--v1" />} label="Tasks" activeTab={activeTab} setActiveTab={setActiveTab} />
+            <NavItem icon={<img src={"/coinn.png"} className="w-12 h-10 flex justify-center items-center mt-2 -mb-1" alt="wallet--v1" />} label="Tap" activeTab={activeTab} setActiveTab={setActiveTab}  />
+            <NavItem icon={<img src={"/firee.png"} className="w-8 h-8 flex justify-center items-center mt-2" alt="wallet--v1" />} label="Boost" activeTab={activeTab} setActiveTab={setActiveTab} />
+            <NavItem icon={<img src={"/bitcoin_wallet.png"} className="w-12 h-8 flex justify-center items-center mt-2" alt="wallet--v1" />} label="Wallet" activeTab={activeTab} setActiveTab={setActiveTab}  />
           </div>
         </nav>
       </body>
@@ -44,7 +44,7 @@ export default function RootLayout({
   );
 }
 
-function NavItem({ icon, label, activeTab, setActiveTab, path }: { icon: React.ReactNode, label: string, activeTab: string, setActiveTab: React.Dispatch<React.SetStateAction<string>>, path: string }) {
+function NavItem({ icon, label, activeTab, setActiveTab }: { icon: React.ReactNode, label: string, activeTab: string, setActiveTab: React.Dispatch<React.SetStateAction<string>>}) {
   // const router = useRouter();
   const isActive = activeTab === label
 
