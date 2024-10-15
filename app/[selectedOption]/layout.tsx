@@ -23,7 +23,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const [activeTab, setActiveTab] = useState("Tap")
-  const router = useRouter();
 
   return (
     <html lang="en">
