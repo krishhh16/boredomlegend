@@ -38,7 +38,7 @@ function Page() {
           </div>
         </div>
       </div>
-        <img src="/spotlightt.jpeg" alt="Large Coin" className="w-[100vw] absolute h-[60vh] object-contain" style={{ zIndex: 1, opacity: 0.4 }} />
+        <img src="/spotlightt.jpeg" alt="Large Coin" className="w-[100vw] absolute h-[30vh] object-contain" style={{ zIndex: 1, opacity: 0.3 }} />
 
       {/* Progress Bar */}
       <div className="w-full max-w-xs space-y-2">

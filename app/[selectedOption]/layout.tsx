@@ -2,7 +2,6 @@
 
 import localFont from "next/font/local";
 import "../globals.css";
-import {useEffect, useState} from "react"
 import { useRouter, useParams } from 'next/navigation';
 
 
@@ -23,7 +22,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const {selectedOption} = useParams();
 
   return (
     <html lang="en">
