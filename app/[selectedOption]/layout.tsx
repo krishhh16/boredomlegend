@@ -33,7 +33,7 @@ export default function RootLayout({
           <div className="flex justify-between items-center">
             <NavItem icon={<img src={"/referr.png"} className="w-[10vw] h-[12vh] flex justify-center items-center mt-2" alt="wallet--v1" />} label="ref"   path="/ref" />
             <NavItem icon={<img src={"/tick.png"} className="w-[11vw] h-[5vh]flex justify-center items-center mt-2" alt="wallet--v1" />} label="tasks"  path="/tasks" />
-            <NavItem icon={<img src={"/coinn.png"} className="w-12 h-10 flex justify-center items-center mt-2 -mb-1" alt="wallet--v1" />} label="tap"  path="/tap" />
+            <NavItem icon={<img src={"/coinn.png"} className="w-12 h-10 flex justify-center items-center mt-2 -mb-1" alt="wallet--v1" />} label="tap"  path="/" />
             <NavItem icon={<img src={"/firee.png"} className="w-8 h-8 flex justify-center items-center mt-2" alt="wallet--v1" />} label="boost"  path="/boost" />
             <NavItem icon={<img src={"/bitcoin_wallet.png"} className="w-12 h-8 flex justify-center items-center mt-2" alt="wallet--v1" />} label="wallet" path="/wallet" />
           </div>

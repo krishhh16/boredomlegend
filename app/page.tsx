@@ -38,16 +38,16 @@ function Page() {
           </div>
         </div>
       </div>
-        <img src="/spotlightt.jpeg" alt="Large Coin" className="w-[100vw] absolute h-[30vh] object-contain" style={{ zIndex: 1, opacity: 0.3 }} />
+        <img src="/spotlightt.jpeg" alt="Large Coin" className="w-[100vw] absolute h-[60vh] object-contain" style={{ zIndex: 1, opacity: 0.3 }} />
 
       {/* Progress Bar */}
       <div className="w-full max-w-xs space-y-2">
         <div style={{zIndex: 1000}} className="flex justify-center items-center">
           <Zap size={16} className="text-yellow-500" />
-          <span className="text-sm">497/500</span>
+          <span className="text-sm">7/500</span>
         </div>
-        <div className="w-full bg-gray-700 rounded-full h-2 border-2 border-gray-500">
-          <div className="bg-yellow-500 h-[4px] rounded-full" style={{ width: "99.4%" }}></div>
+        <div className="w-full bg-gray-700 rounded-full h-2 border-4 border-gray-500">
+          <div className="bg-yellow-500 h-[4px] rounded-full" style={{ width: "29.4%" }}></div>
         </div>
       </div>
     </main>
