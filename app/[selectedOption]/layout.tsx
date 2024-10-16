@@ -24,12 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const {selectedOption} = useParams();
-  const [activeTab, setActiveTab] = useState("Tap")
 
-
-  useEffect(() => {
-    setActiveTab(selectedOption as string)
-  }, [selectedOption])
   return (
     <html lang="en">
       <body

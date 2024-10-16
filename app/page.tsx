@@ -8,7 +8,7 @@ function Page() {
   return (
     <main className="flex-1 flex flex-col bg-[#1a1b26] items-center justify-center p-2 space-y-8 min-h-screen">
       {/* Coin Count and Status */}
-      <div className="flex flex-col items-center bg-[#1a1b26] space-x-4 -mt-[5vh]">
+      <div className="flex flex-col items-center bg-[#1a1b26] space-x-4 -mt-[18vh]">
         <div className="flex items-center">
           <Image src="/coinnn.png" width={40} height={40} alt="Coin" className="mr-2" />
           <span className="text-3xl font-bold">4</span>
